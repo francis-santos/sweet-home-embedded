@@ -1,0 +1,47 @@
+:: SALA ::
+CENTRAL_D9232594 = 12        | STATUS = OK
+CROICAS_D9232665 = 16        | STATUS = OK
+LED_D9232655 = 13            | STATUS = OK
+CORREDOR_D9232664 = 2        | STATUS = OK
+
+:: QUARTO VISITA ::
+CENTRAL_D9232654 = 17         | STATUS = OK
+CROICAS_D9232657 = 14        | STATUS = OK
+
+:: QUARTO CASAL ::
+CENTRAL_D9232663 = 5         | STATUS = OK
+CROICAS_D9232662 = 27        | STATUS = OK
+LED_D9232656 = 18            | STATUS = OK
+
+:: COZINHA ::
+CENTRAL_D9232596 = 26        | STATUS = OK
+CROICAS_D9232598 = 19        | STATUS = OK
+AMERICANA_D9232595 = 25      | STATUS = OK
+AREA_SERVICO_D9232597 = 21   | STATUS = OK
+
+:: BANHEIRO ::
+CENTRAL_D9232661 = 33        | STATUS = OK
+CROICAS_D9232659 = 22        | STATUS = OK
+BOX_D9232660 = 32            | STATUS = OK
+
+PINOS DA PLACA | ESP32
+O1               VIN
+O1               VIN
+P1               32 - BANHEIRO
+P2               22 - BANHEIRO
+Q1               33 - BANHEIRO
+Q2               21 - COZINHA
+R1               25 - COZINHA
+R2               19 - COZINHA
+S1               26 - COZINHA
+S2               18 - QUARTO_CASAL
+T1               27 - QUARTO_CASAL
+T2               5  - QUARTO_CASAL
+U1               14 - QUARTO_VISITA
+U2               17 - QUARTO_VISITA
+V1               12 - SALA
+V2               16 - SALA
+W1               13 - SALA
+W2               2  - SALA
+X1               GND
+X2               GND

@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/francis/.platformio/penv/bin:/home/francis/.platformio/penv:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "editor.tabSize": 2,
+    "files.associations": {
+        "functional": "cpp",
+        "array": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp"
+    }
+}
